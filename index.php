@@ -1,0 +1,88 @@
+<?php
+// Este es un archivo .php, pero por ahora solo contiene HTML y CSS.
+// El servidor lo procesará como PHP, pero mostrará el HTML resultante.
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Próximamente - Página de Reservas</title>
+    
+    <style>
+        /* Reset básico para eliminar márgenes y padding por defecto */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos del cuerpo */
+        body {
+            /* Fuente limpia y moderna */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            
+            /* Color de fondo suave */
+            background-color: #f0f2f5;
+            
+            /* Color de texto principal */
+            color: #333;
+            
+            /* Usamos Flexbox para centrar el contenido */
+            display: flex;
+            justify-content: center; /* Centrado horizontal */
+            align-items: center;     /* Centrado vertical */
+            height: 100vh;           /* Ocupa el 100% de la altura de la ventana */
+            
+            /* Asegura que el texto dentro del contenedor esté centrado */
+            text-align: center;
+            
+            /* Añade un poco de padding para pantallas pequeñas */
+            padding: 20px;
+        }
+
+        /* Contenedor principal del mensaje */
+        .container {
+            max-width: 600px;
+        }
+
+        /* Estilo del título principal */
+        h1 {
+            font-size: 2.2rem; /* Tamaño de fuente grande */
+            font-weight: 600;
+            color: #005a8d;   /* Un color azul corporativo */
+            margin-bottom: 15px; /* Espacio debajo del título */
+            line-height: 1.3;
+        }
+
+        /* Estilo del párrafo/subtítulo */
+        p {
+            font-size: 1.1rem; /* Tamaño de fuente legible */
+            color: #555;      /* Un gris oscuro */
+            line-height: 1.5;
+        }
+
+        /* Ajustes para pantallas pequeñas (móviles) */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8rem; /* Hacemos la fuente un poco más pequeña */
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Aquí se está construyendo la mejor página de reservas.</h1>
+        <p>Pronto estará disponible.</p>
+    </div>
+
+    <?php
+    // No se necesita JavaScript (JS) para esta página simple.
+    // Si quisiéramos añadir un contador o efectos, lo pondríamos aquí.
+    ?>
+</body>
+</html>
